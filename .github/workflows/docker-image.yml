@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: junsikwanted/nodejs-github-action:${{ env.CURRENT_TIME }}
+        tags: wantedjunsik/nodejs-github-action:${{ env.CURRENT_TIME }}
