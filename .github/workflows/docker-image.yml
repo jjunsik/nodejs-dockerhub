@@ -9,7 +9,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # 현재 시간을 YYYYMMDDHHMMSS 형식으로 설정
     - name: Get current time
